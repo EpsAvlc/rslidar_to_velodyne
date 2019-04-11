@@ -1,0 +1,6 @@
+<launch>
+    <node name="plag_bag" pkg="rosbag" type="play" args="-l /home/cm/Workspaces/VLP16_back_and_forth/src/imu_lidar_fuse/bags/odom_2.bag"/> 
+    <node name="rslidar_to_velodyne" pkg="rslidar_to_velodyne" type="rslidar_to_velodyne" output="screen">
+        <param name="rslidar_topic" value="rslidar_points"/>
+    </node> 
+</launch>
