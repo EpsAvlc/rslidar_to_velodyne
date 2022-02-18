@@ -15,4 +15,4 @@ roslaunch rslidar_to_velodyne rslidar_to_velodyne.launch
 
 you can change the subscribe topic name and publish topic name in launch file.
 
-For Chinese complaination you can refer: [速腾激光雷达与velodyne激光雷达的数据转换](https://epsavlc.github.io/2019/04/12/rslidar_to_robosense.html)
+For Chinese explanation you can refer: [速腾激光雷达与velodyne激光雷达的数据转换](https://epsavlc.github.io/2019/04/12/rslidar_to_robosense.html)
